@@ -25,7 +25,7 @@ class LobbyViewController: UIViewController {
     @IBAction func share() {
         let shareText = "今の経験値は\(experience)、役職は\(positionLabel.text!)だよ"
         let shareImage = charaImageView.image
-        let activityItems: [Any] = [shareText, shareImage]
+        let activityItems: [Any] = [shareText, shareImage!]
         let activityViewController = UIActivityViewController(activityItems: activityItems, applicationActivities: nil)
         let excloudActivityTypes = [UIActivity.ActivityType.postToWeibo, .saveToCameraRoll, .print]
         
