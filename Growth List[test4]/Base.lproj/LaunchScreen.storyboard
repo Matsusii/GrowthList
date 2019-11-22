@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hqu-U2-8jH">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スプラッシュ Growth List.png" translatesAutoresizingMaskIntoConstraints="NO" id="wak-wf-4lv">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LIST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zwv-JG-5az">
+                                <rect key="frame" x="205" y="350" width="143" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="66"/>
+                                <color key="textColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GROWTH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMu-dl-aA9">
+                                <rect key="frame" x="8" y="282" width="293" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="66"/>
+                                <color key="textColor" red="1" green="0.028489779940000001" blue="0.26695295600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MATSUSII" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDi-6Q-LYJ">
+                                <rect key="frame" x="8" y="643" width="94" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-378" y="288"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uF3-8i-Ucd">
+            <objects>
+                <viewController id="Hqu-U2-8jH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gCe-yd-7Qr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XH8-e6-Jt3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.77853906154632568" green="0.90255969762802124" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ロゴ.png" translatesAutoresizingMaskIntoConstraints="NO" id="j5h-sJ-HjS">
+                                <rect key="frame" x="112.5" y="258.5" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="06H-Mk-SGy"/>
+                                    <constraint firstAttribute="height" constant="150" id="59l-wh-C9C"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="j5h-sJ-HjS" firstAttribute="centerX" secondItem="gCe-yd-7Qr" secondAttribute="centerX" id="8ZX-2w-m3S"/>
+                            <constraint firstItem="j5h-sJ-HjS" firstAttribute="centerY" secondItem="gCe-yd-7Qr" secondAttribute="centerY" id="A8S-1X-oVC"/>
+                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="top" secondItem="EY8-Lg-tRw" secondAttribute="top" id="CIH-jn-GIu"/>
+                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="top" secondItem="gCe-yd-7Qr" secondAttribute="top" id="QT0-Et-aGs"/>
+                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="bottom" secondItem="EY8-Lg-tRw" secondAttribute="bottom" id="QYZ-wO-Lyy"/>
+                            <constraint firstAttribute="bottom" secondItem="XH8-e6-Jt3" secondAttribute="bottom" id="RSF-tv-OLR"/>
+                            <constraint firstAttribute="trailing" secondItem="XH8-e6-Jt3" secondAttribute="trailing" id="iEy-S4-iQf"/>
+                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="leading" secondItem="gCe-yd-7Qr" secondAttribute="leading" id="jjl-X3-K3x"/>
+                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="leading" secondItem="EY8-Lg-tRw" secondAttribute="leading" id="v8h-Dc-JAp"/>
+                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="trailing" secondItem="EY8-Lg-tRw" secondAttribute="trailing" id="xUn-zb-3S9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EY8-Lg-tRw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="evN-lI-AVF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="453.60000000000002" y="286.50674662668666"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="スプラッシュ Growth List.png" width="800" height="800"/>
+        <image name="ロゴ.png" width="384" height="384"/>
+    </resources>
+</document>
