@@ -55,7 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5907C90023424CE600E74A7C /* Growth List[test4].app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Growth List[test4].app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5907C90023424CE600E74A7C /* Growth List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Growth List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5907C90323424CE600E74A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5907C90523424CE600E74A7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5907C90723424CE600E74A7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		5907C90123424CE600E74A7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5907C90023424CE600E74A7C /* Growth List[test4].app */,
+				5907C90023424CE600E74A7C /* Growth List.app */,
 				5907C91623424CE700E74A7C /* Growth List[test4]Tests.xctest */,
 				5907C92123424CE800E74A7C /* Growth List[test4]UITests.xctest */,
 			);
@@ -239,7 +239,7 @@
 			);
 			name = "Growth List[test4]";
 			productName = "Growth List[test4]";
-			productReference = 5907C90023424CE600E74A7C /* Growth List[test4].app */;
+			productReference = 5907C90023424CE600E74A7C /* Growth List.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5907C91523424CE700E74A7C /* Growth List[test4]Tests */ = {
@@ -556,7 +556,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Growth-List-test4-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Growth List";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -574,7 +574,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Growth-List-test4-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Growth List";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

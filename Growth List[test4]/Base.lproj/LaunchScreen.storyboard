@@ -15,10 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スプラッシュ Growth List.png" translatesAutoresizingMaskIntoConstraints="NO" id="wak-wf-4lv">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LIST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zwv-JG-5az">
                                 <rect key="frame" x="205" y="350" width="143" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -74,14 +70,18 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="centerY" secondItem="gCe-yd-7Qr" secondAttribute="centerY" id="3sS-Lh-Cz0"/>
                             <constraint firstAttribute="bottom" secondItem="XH8-e6-Jt3" secondAttribute="bottom" id="68F-78-Sua"/>
                             <constraint firstItem="j5h-sJ-HjS" firstAttribute="centerX" secondItem="gCe-yd-7Qr" secondAttribute="centerX" id="8ZX-2w-m3S"/>
                             <constraint firstItem="j5h-sJ-HjS" firstAttribute="centerY" secondItem="gCe-yd-7Qr" secondAttribute="centerY" id="A8S-1X-oVC"/>
                             <constraint firstItem="XH8-e6-Jt3" firstAttribute="top" secondItem="EY8-Lg-tRw" secondAttribute="top" id="CIH-jn-GIu"/>
+                            <constraint firstAttribute="bottom" secondItem="XH8-e6-Jt3" secondAttribute="bottom" id="Ecx-QD-Vw3"/>
+                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="centerX" secondItem="gCe-yd-7Qr" secondAttribute="centerX" id="G7a-oj-zQh"/>
                             <constraint firstItem="XH8-e6-Jt3" firstAttribute="top" secondItem="gCe-yd-7Qr" secondAttribute="top" id="NqB-RD-bVw"/>
                             <constraint firstItem="XH8-e6-Jt3" firstAttribute="top" secondItem="gCe-yd-7Qr" secondAttribute="top" id="QT0-Et-aGs"/>
                             <constraint firstItem="XH8-e6-Jt3" firstAttribute="bottom" secondItem="EY8-Lg-tRw" secondAttribute="bottom" id="QYZ-wO-Lyy"/>
                             <constraint firstAttribute="bottom" secondItem="XH8-e6-Jt3" secondAttribute="bottom" id="RSF-tv-OLR"/>
+                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="top" secondItem="gCe-yd-7Qr" secondAttribute="top" id="XW0-kl-HIO"/>
                             <constraint firstAttribute="trailing" secondItem="XH8-e6-Jt3" secondAttribute="trailing" id="iEy-S4-iQf"/>
                             <constraint firstItem="XH8-e6-Jt3" firstAttribute="leading" secondItem="gCe-yd-7Qr" secondAttribute="leading" id="jjl-X3-K3x"/>
                             <constraint firstItem="XH8-e6-Jt3" firstAttribute="leading" secondItem="EY8-Lg-tRw" secondAttribute="leading" id="v8h-Dc-JAp"/>
@@ -96,7 +96,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="スプラッシュ Growth List.png" width="800" height="800"/>
         <image name="ロゴ.png" width="384" height="384"/>
     </resources>
 </document>
