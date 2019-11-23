@@ -15,7 +15,7 @@
         <!--Lobby View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LobbyViewController" customModule="Growth_List_test4_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LobbyViewController" customModule="Growth_List" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,7 +140,7 @@
         <!--View Controller-->
         <scene sceneID="bBU-Rh-ImM">
             <objects>
-                <viewController id="bNm-Fp-OmL" customClass="ViewController" customModule="Growth_List_test4_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bNm-Fp-OmL" customClass="ViewController" customModule="Growth_List" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZWU-Mf-k90">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -200,43 +200,36 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="tJO-2u-YPS" secondAttribute="bottom" id="3qA-p6-GyQ"/>
                             <constraint firstItem="2lU-s4-kM6" firstAttribute="top" secondItem="oHG-xe-bhh" secondAttribute="bottom" id="5el-i0-sGd"/>
-                            <constraint firstItem="tJO-2u-YPS" firstAttribute="leading" secondItem="j4Y-vI-JWa" secondAttribute="leading" id="6Fy-8b-iaD"/>
-                            <constraint firstAttribute="bottom" secondItem="tJO-2u-YPS" secondAttribute="bottom" id="7c9-2t-KBT"/>
                             <constraint firstItem="2lU-s4-kM6" firstAttribute="leading" secondItem="j4Y-vI-JWa" secondAttribute="leading" id="GMu-ts-5ab"/>
+                            <constraint firstItem="tJO-2u-YPS" firstAttribute="trailing" secondItem="j4Y-vI-JWa" secondAttribute="trailing" id="Ils-d4-DJK"/>
                             <constraint firstItem="oHG-xe-bhh" firstAttribute="leading" secondItem="j4Y-vI-JWa" secondAttribute="leading" id="K4S-TG-hbl"/>
-                            <constraint firstAttribute="bottom" secondItem="tJO-2u-YPS" secondAttribute="bottom" id="RxI-2b-b35"/>
-                            <constraint firstItem="tJO-2u-YPS" firstAttribute="centerX" secondItem="ZWU-Mf-k90" secondAttribute="centerX" id="aXM-M5-DYC"/>
                             <constraint firstItem="oHG-xe-bhh" firstAttribute="top" secondItem="ZWU-Mf-k90" secondAttribute="top" id="eaa-mp-OC8"/>
                             <constraint firstItem="2lU-s4-kM6" firstAttribute="top" secondItem="j4Y-vI-JWa" secondAttribute="top" constant="28" id="gO1-p2-Hs0"/>
-                            <constraint firstItem="tJO-2u-YPS" firstAttribute="bottom" secondItem="j4Y-vI-JWa" secondAttribute="bottom" id="grg-xR-rrt"/>
                             <constraint firstItem="oHG-xe-bhh" firstAttribute="trailing" secondItem="j4Y-vI-JWa" secondAttribute="trailing" id="igf-07-gcE"/>
                             <constraint firstItem="2lU-s4-kM6" firstAttribute="trailing" secondItem="j4Y-vI-JWa" secondAttribute="trailing" id="j59-ZA-xYD"/>
-                            <constraint firstItem="tJO-2u-YPS" firstAttribute="trailing" secondItem="j4Y-vI-JWa" secondAttribute="trailing" id="lEh-3j-163"/>
-                            <constraint firstItem="tJO-2u-YPS" firstAttribute="top" secondItem="2lU-s4-kM6" secondAttribute="bottom" id="o7u-4H-Hvw"/>
+                            <constraint firstItem="tJO-2u-YPS" firstAttribute="top" secondItem="2lU-s4-kM6" secondAttribute="bottom" id="ny5-Ne-yIa"/>
+                            <constraint firstItem="tJO-2u-YPS" firstAttribute="leading" secondItem="j4Y-vI-JWa" secondAttribute="leading" id="ole-q5-B5G"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="j4Y-vI-JWa"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="saJ-fy-dcE"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="modal" identifier="toLobby" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="dA7-YR-wOw"/>
                         <segue destination="Cc8-yr-ueG" kind="modal" identifier="toAdd" modalTransitionStyle="crossDissolve" id="qgu-n7-E4A"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZRw-nc-Lu8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <barButtonItem title="全削除" id="8C7-Og-oof">
-                    <color key="tintColor" red="1" green="0.028489779940000001" blue="0.26695295600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <connections>
-                        <action selector="reset" destination="bNm-Fp-OmL" id="i9b-va-4of"/>
-                    </connections>
-                </barButtonItem>
             </objects>
             <point key="canvasLocation" x="813.60000000000002" y="114.69265367316342"/>
         </scene>
         <!--Add View Controller-->
         <scene sceneID="AK6-ii-lnN">
             <objects>
-                <viewController id="Cc8-yr-ueG" customClass="AddViewController" customModule="Growth_List_test4_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Cc8-yr-ueG" customClass="AddViewController" customModule="Growth_List" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fdd-AA-7f4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -315,10 +308,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CY4-ml-yfG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="b8b-4W-CGL">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="272"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
             </objects>
             <point key="canvasLocation" x="1501.5999999999999" y="114.69265367316342"/>
         </scene>
@@ -328,6 +317,7 @@
         <image name="動く原始人.gif" width="288" height="288"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vk3-oS-qHH"/>
+        <segue reference="qgu-n7-E4A"/>
+        <segue reference="Bgv-T2-LuO"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -70,22 +70,12 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="centerY" secondItem="gCe-yd-7Qr" secondAttribute="centerY" id="3sS-Lh-Cz0"/>
-                            <constraint firstAttribute="bottom" secondItem="XH8-e6-Jt3" secondAttribute="bottom" id="68F-78-Sua"/>
+                            <constraint firstAttribute="trailing" secondItem="XH8-e6-Jt3" secondAttribute="trailing" id="2PT-iA-abk"/>
                             <constraint firstItem="j5h-sJ-HjS" firstAttribute="centerX" secondItem="gCe-yd-7Qr" secondAttribute="centerX" id="8ZX-2w-m3S"/>
                             <constraint firstItem="j5h-sJ-HjS" firstAttribute="centerY" secondItem="gCe-yd-7Qr" secondAttribute="centerY" id="A8S-1X-oVC"/>
-                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="top" secondItem="EY8-Lg-tRw" secondAttribute="top" id="CIH-jn-GIu"/>
-                            <constraint firstAttribute="bottom" secondItem="XH8-e6-Jt3" secondAttribute="bottom" id="Ecx-QD-Vw3"/>
-                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="centerX" secondItem="gCe-yd-7Qr" secondAttribute="centerX" id="G7a-oj-zQh"/>
-                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="top" secondItem="gCe-yd-7Qr" secondAttribute="top" id="NqB-RD-bVw"/>
-                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="top" secondItem="gCe-yd-7Qr" secondAttribute="top" id="QT0-Et-aGs"/>
-                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="bottom" secondItem="EY8-Lg-tRw" secondAttribute="bottom" id="QYZ-wO-Lyy"/>
-                            <constraint firstAttribute="bottom" secondItem="XH8-e6-Jt3" secondAttribute="bottom" id="RSF-tv-OLR"/>
-                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="top" secondItem="gCe-yd-7Qr" secondAttribute="top" id="XW0-kl-HIO"/>
-                            <constraint firstAttribute="trailing" secondItem="XH8-e6-Jt3" secondAttribute="trailing" id="iEy-S4-iQf"/>
-                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="leading" secondItem="gCe-yd-7Qr" secondAttribute="leading" id="jjl-X3-K3x"/>
-                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="leading" secondItem="EY8-Lg-tRw" secondAttribute="leading" id="v8h-Dc-JAp"/>
-                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="trailing" secondItem="EY8-Lg-tRw" secondAttribute="trailing" id="xUn-zb-3S9"/>
+                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="top" secondItem="gCe-yd-7Qr" secondAttribute="top" id="I2b-nO-bMJ"/>
+                            <constraint firstItem="XH8-e6-Jt3" firstAttribute="leading" secondItem="gCe-yd-7Qr" secondAttribute="leading" id="nPo-Xc-0Xf"/>
+                            <constraint firstAttribute="bottom" secondItem="XH8-e6-Jt3" secondAttribute="bottom" id="nrX-aP-8Lc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EY8-Lg-tRw"/>
                     </view>
