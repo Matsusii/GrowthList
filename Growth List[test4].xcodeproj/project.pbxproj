@@ -24,7 +24,6 @@
 		5907C94923424E2A00E74A7C /* 現代人.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93D23424E2A00E74A7C /* 現代人.png */; };
 		5907C94A23424E2A00E74A7C /* スーパーヒーロー.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93E23424E2A00E74A7C /* スーパーヒーロー.png */; };
 		5907C94B23424E2A00E74A7C /* 宿題くん１.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93F23424E2A00E74A7C /* 宿題くん１.png */; };
-		5907C94D234254B300E74A7C /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5907C94C234254B300E74A7C /* AddViewController.swift */; };
 		593C4CC42386C00E008AF82D /* シェア.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C4CC32386C00E008AF82D /* シェア.png */; };
 		593C4CC62386C05E008AF82D /* 動くスーパーヒーロー.gif in Resources */ = {isa = PBXBuildFile; fileRef = 593C4CC52386C05E008AF82D /* 動くスーパーヒーロー.gif */; };
 		593C4CC82386C06D008AF82D /* 動く原始人.gif in Resources */ = {isa = PBXBuildFile; fileRef = 593C4CC72386C06D008AF82D /* 動く原始人.gif */; };
@@ -78,7 +77,6 @@
 		5907C93D23424E2A00E74A7C /* 現代人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代人.png"; sourceTree = "<group>"; };
 		5907C93E23424E2A00E74A7C /* スーパーヒーロー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スーパーヒーロー.png"; sourceTree = "<group>"; };
 		5907C93F23424E2A00E74A7C /* 宿題くん１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "宿題くん１.png"; sourceTree = "<group>"; };
-		5907C94C234254B300E74A7C /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		593C4CC32386C00E008AF82D /* シェア.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "シェア.png"; sourceTree = "<group>"; };
 		593C4CC52386C05E008AF82D /* 動くスーパーヒーロー.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "動くスーパーヒーロー.gif"; sourceTree = "<group>"; };
 		593C4CC72386C06D008AF82D /* 動く原始人.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "動く原始人.gif"; sourceTree = "<group>"; };
@@ -151,7 +149,6 @@
 				5907C90923424CE600E74A7C /* Main.storyboard */,
 				595D5828236C44D50096D6F1 /* LobbyViewController.swift */,
 				5907C90723424CE600E74A7C /* ViewController.swift */,
-				5907C94C234254B300E74A7C /* AddViewController.swift */,
 				5907C90C23424CE700E74A7C /* Assets.xcassets */,
 				5907C90E23424CE700E74A7C /* LaunchScreen.storyboard */,
 				5907C91123424CE700E74A7C /* Info.plist */,
@@ -374,7 +371,6 @@
 				5907C90823424CE600E74A7C /* ViewController.swift in Sources */,
 				595D5829236C44D50096D6F1 /* LobbyViewController.swift in Sources */,
 				5907C90423424CE600E74A7C /* AppDelegate.swift in Sources */,
-				5907C94D234254B300E74A7C /* AddViewController.swift in Sources */,
 				5907C90623424CE600E74A7C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

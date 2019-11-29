@@ -9,10 +9,17 @@
 import UIKit
 
 var experiencePoint: Int = 0
+var individualContents: [String]!
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
+       @IBOutlet var todoTextField: UITextField!
+        @IBOutlet var todoTableView: UITableView!
     
+       override func viewDidLoad() {
+           super.viewDidLoad()
+           dateread()
+       }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return individualContents.count
@@ -42,21 +49,19 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         performSegue(withIdentifier: "toLobby", sender: nil)
     }
     
-    @IBAction func toAdd() {
-        performSegue(withIdentifier: "toAdd", sender: nil)
+     @IBAction func Add(_ sender: Any) {
+           individualContents.append(todoTextField.text!)
+           todoTextField.text = ""
+           UserDefaults.standard.set(individualContents, forKey: "todoList")
+        if UserDefaults.standard.object(forKey: "todoList") != nil {
+            individualContents = UserDefaults.standard.object(forKey: "todoList") as? [String]
+        }
+        todoTableView.reloadData()
     }
     
-    @IBAction func reset() {
-        
+    @IBAction func textreset() {
+        todoTextField.text = ""
     }
-    
-    override func viewDidLoad() {
-        
-        super.viewDidLoad()
-        dateread()
-            // Do any additional setup after loading the view.
-    }
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "toLobby") {
             let next = segue.destination as! LobbyViewController
@@ -70,7 +75,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                 experiencePoint = UserDefaults.standard.object(forKey: "list-experience") as! Int
             }
         if UserDefaults.standard.object(forKey: "todoList") != nil {
-                individualContents = UserDefaults.standard.object(forKey: "todoList") as! [String]
+            individualContents = UserDefaults.standard.object(forKey: "todoList") as? [String]
             }
         
     }

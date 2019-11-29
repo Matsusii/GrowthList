@@ -8,31 +8,12 @@
 
 import UIKit
 
-var individualContents = [String]()
+
 
 
 class AddViewController: UIViewController {
     
-    @IBOutlet var AddButton: UIButton!
-    @IBOutlet var TodoTextField: UITextField!
-    
-    @IBAction func Add(_ sender: Any) {
-        //変数に入力内容を入れる
-        individualContents.append(TodoTextField.text!)
-        //フィールドを空にする
-        TodoTextField.text = ""
-        //変数の中身をユーザーデフォルトに追加
-        UserDefaults.standard.set(individualContents, forKey: "todoList")
-        performSegue(withIdentifier: "backList", sender: nil)
-    }
-    @IBAction func back() {
-        performSegue(withIdentifier: "backList", sender: nil)
-    }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        AddButton.layer.cornerRadius = 60
-    }
+   
     
 
     /*
