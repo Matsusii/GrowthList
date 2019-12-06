@@ -13,8 +13,6 @@
 		5907C90B23424CE600E74A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5907C90923424CE600E74A7C /* Main.storyboard */; };
 		5907C90D23424CE700E74A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5907C90C23424CE700E74A7C /* Assets.xcassets */; };
 		5907C91023424CE700E74A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5907C90E23424CE700E74A7C /* LaunchScreen.storyboard */; };
-		5907C91B23424CE700E74A7C /* Growth_List_test4_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5907C91A23424CE700E74A7C /* Growth_List_test4_Tests.swift */; };
-		5907C92623424CE800E74A7C /* Growth_List_test4_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5907C92523424CE800E74A7C /* Growth_List_test4_UITests.swift */; };
 		5907C94023424E2A00E74A7C /* アスリート.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93423424E2A00E74A7C /* アスリート.png */; };
 		5907C94123424E2A00E74A7C /* スター.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93523424E2A00E74A7C /* スター.png */; };
 		5907C94223424E2A00E74A7C /* みじんこ微塵粉.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93623424E2A00E74A7C /* みじんこ微塵粉.png */; };
@@ -36,23 +34,6 @@
 		5995D8BD23702018000CC9A3 /* 総理大臣.png in Resources */ = {isa = PBXBuildFile; fileRef = 5995D8BC23702018000CC9A3 /* 総理大臣.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5907C91723424CE700E74A7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5907C8F823424CE600E74A7C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5907C8FF23424CE600E74A7C;
-			remoteInfo = "Growth List[test4]";
-		};
-		5907C92223424CE800E74A7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5907C8F823424CE600E74A7C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5907C8FF23424CE600E74A7C;
-			remoteInfo = "Growth List[test4]";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		5907C90023424CE600E74A7C /* Growth List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Growth List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5907C90323424CE600E74A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,12 +43,6 @@
 		5907C90C23424CE700E74A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5907C90F23424CE700E74A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5907C91123424CE700E74A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5907C91623424CE700E74A7C /* Growth List[test4]Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Growth List[test4]Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5907C91A23424CE700E74A7C /* Growth_List_test4_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Growth_List_test4_Tests.swift; sourceTree = "<group>"; };
-		5907C91C23424CE700E74A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5907C92123424CE800E74A7C /* Growth List[test4]UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Growth List[test4]UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5907C92523424CE800E74A7C /* Growth_List_test4_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Growth_List_test4_UITests.swift; sourceTree = "<group>"; };
-		5907C92723424CE800E74A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5907C93423424E2A00E74A7C /* アスリート.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アスリート.png"; sourceTree = "<group>"; };
 		5907C93523424E2A00E74A7C /* スター.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スター.png"; sourceTree = "<group>"; };
 		5907C93623424E2A00E74A7C /* みじんこ微塵粉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "みじんこ微塵粉.png"; sourceTree = "<group>"; };
@@ -102,20 +77,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5907C91323424CE700E74A7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5907C91E23424CE800E74A7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -123,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				5907C90223424CE600E74A7C /* Growth List[test4] */,
-				5907C91923424CE700E74A7C /* Growth List[test4]Tests */,
-				5907C92423424CE800E74A7C /* Growth List[test4]UITests */,
 				5907C90123424CE600E74A7C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,8 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				5907C90023424CE600E74A7C /* Growth List.app */,
-				5907C91623424CE700E74A7C /* Growth List[test4]Tests.xctest */,
-				5907C92123424CE800E74A7C /* Growth List[test4]UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,24 +111,6 @@
 				5907C91123424CE700E74A7C /* Info.plist */,
 			);
 			path = "Growth List[test4]";
-			sourceTree = "<group>";
-		};
-		5907C91923424CE700E74A7C /* Growth List[test4]Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5907C91A23424CE700E74A7C /* Growth_List_test4_Tests.swift */,
-				5907C91C23424CE700E74A7C /* Info.plist */,
-			);
-			path = "Growth List[test4]Tests";
-			sourceTree = "<group>";
-		};
-		5907C92423424CE800E74A7C /* Growth List[test4]UITests */ = {
-			isa = PBXGroup;
-			children = (
-				5907C92523424CE800E74A7C /* Growth_List_test4_UITests.swift */,
-				5907C92723424CE800E74A7C /* Info.plist */,
-			);
-			path = "Growth List[test4]UITests";
 			sourceTree = "<group>";
 		};
 		5907C93323424E2A00E74A7C /* Growth List    Image */ = {
@@ -239,42 +178,6 @@
 			productReference = 5907C90023424CE600E74A7C /* Growth List.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5907C91523424CE700E74A7C /* Growth List[test4]Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5907C92D23424CE800E74A7C /* Build configuration list for PBXNativeTarget "Growth List[test4]Tests" */;
-			buildPhases = (
-				5907C91223424CE700E74A7C /* Sources */,
-				5907C91323424CE700E74A7C /* Frameworks */,
-				5907C91423424CE700E74A7C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5907C91823424CE700E74A7C /* PBXTargetDependency */,
-			);
-			name = "Growth List[test4]Tests";
-			productName = "Growth List[test4]Tests";
-			productReference = 5907C91623424CE700E74A7C /* Growth List[test4]Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5907C92023424CE800E74A7C /* Growth List[test4]UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5907C93023424CE800E74A7C /* Build configuration list for PBXNativeTarget "Growth List[test4]UITests" */;
-			buildPhases = (
-				5907C91D23424CE800E74A7C /* Sources */,
-				5907C91E23424CE800E74A7C /* Frameworks */,
-				5907C91F23424CE800E74A7C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5907C92323424CE800E74A7C /* PBXTargetDependency */,
-			);
-			name = "Growth List[test4]UITests";
-			productName = "Growth List[test4]UITests";
-			productReference = 5907C92123424CE800E74A7C /* Growth List[test4]UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -287,14 +190,6 @@
 				TargetAttributes = {
 					5907C8FF23424CE600E74A7C = {
 						CreatedOnToolsVersion = 11.0;
-					};
-					5907C91523424CE700E74A7C = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 5907C8FF23424CE600E74A7C;
-					};
-					5907C92023424CE800E74A7C = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 5907C8FF23424CE600E74A7C;
 					};
 				};
 			};
@@ -312,8 +207,6 @@
 			projectRoot = "";
 			targets = (
 				5907C8FF23424CE600E74A7C /* Growth List[test4] */,
-				5907C91523424CE700E74A7C /* Growth List[test4]Tests */,
-				5907C92023424CE800E74A7C /* Growth List[test4]UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -347,20 +240,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5907C91423424CE700E74A7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5907C91F23424CE800E74A7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -375,36 +254,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5907C91223424CE700E74A7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5907C91B23424CE700E74A7C /* Growth_List_test4_Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5907C91D23424CE800E74A7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5907C92623424CE800E74A7C /* Growth_List_test4_UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5907C91823424CE700E74A7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5907C8FF23424CE600E74A7C /* Growth List[test4] */;
-			targetProxy = 5907C91723424CE700E74A7C /* PBXContainerItemProxy */;
-		};
-		5907C92323424CE800E74A7C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5907C8FF23424CE600E74A7C /* Growth List[test4] */;
-			targetProxy = 5907C92223424CE800E74A7C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5907C90923424CE600E74A7C /* Main.storyboard */ = {
@@ -545,13 +395,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7SAHDUYTHG;
+				DEVELOPMENT_TEAM = 8HCPM5YM56;
 				INFOPLIST_FILE = "Growth List[test4]/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Growth-List-test4-";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.ryoheimatsushita.Growth-List";
 				PRODUCT_NAME = "Growth List";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -563,100 +413,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7SAHDUYTHG;
+				DEVELOPMENT_TEAM = 8HCPM5YM56;
 				INFOPLIST_FILE = "Growth List[test4]/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Growth-List-test4-";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.ryoheimatsushita.Growth-List";
 				PRODUCT_NAME = "Growth List";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		5907C92E23424CE800E74A7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7SAHDUYTHG;
-				INFOPLIST_FILE = "Growth List[test4]Tests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Growth-List-test4-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Growth List[test4].app/Growth List[test4]";
-			};
-			name = Debug;
-		};
-		5907C92F23424CE800E74A7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7SAHDUYTHG;
-				INFOPLIST_FILE = "Growth List[test4]Tests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Growth-List-test4-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Growth List[test4].app/Growth List[test4]";
-			};
-			name = Release;
-		};
-		5907C93123424CE800E74A7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7SAHDUYTHG;
-				INFOPLIST_FILE = "Growth List[test4]UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Growth-List-test4-UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Growth List[test4]";
-			};
-			name = Debug;
-		};
-		5907C93223424CE800E74A7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7SAHDUYTHG;
-				INFOPLIST_FILE = "Growth List[test4]UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Growth-List-test4-UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Growth List[test4]";
 			};
 			name = Release;
 		};
@@ -677,24 +443,6 @@
 			buildConfigurations = (
 				5907C92B23424CE800E74A7C /* Debug */,
 				5907C92C23424CE800E74A7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5907C92D23424CE800E74A7C /* Build configuration list for PBXNativeTarget "Growth List[test4]Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5907C92E23424CE800E74A7C /* Debug */,
-				5907C92F23424CE800E74A7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5907C93023424CE800E74A7C /* Build configuration list for PBXNativeTarget "Growth List[test4]UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5907C93123424CE800E74A7C /* Debug */,
-				5907C93223424CE800E74A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

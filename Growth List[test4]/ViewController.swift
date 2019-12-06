@@ -9,7 +9,7 @@
 import UIKit
 
 var experiencePoint: Int = 0
-var individualContents: [String]!
+var individualContents = [String]()
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
@@ -54,7 +54,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
            todoTextField.text = ""
            UserDefaults.standard.set(individualContents, forKey: "todoList")
         if UserDefaults.standard.object(forKey: "todoList") != nil {
-            individualContents = UserDefaults.standard.object(forKey: "todoList") as? [String]
+            individualContents = UserDefaults.standard.object(forKey: "todoList") as! [String]
         }
         todoTableView.reloadData()
     }
@@ -75,11 +75,12 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                 experiencePoint = UserDefaults.standard.object(forKey: "list-experience") as! Int
             }
         if UserDefaults.standard.object(forKey: "todoList") != nil {
-            individualContents = UserDefaults.standard.object(forKey: "todoList") as? [String]
+            individualContents = UserDefaults.standard.object(forKey: "todoList") as! [String]
             }
         
     }
         
     
 }
+
 
