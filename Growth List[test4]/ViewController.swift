@@ -12,12 +12,13 @@ var experiencePoint: Int = 0
 var individualContents = [String]()
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
-
+    
        @IBOutlet var todoTextField: UITextField!
         @IBOutlet var todoTableView: UITableView!
     
        override func viewDidLoad() {
            super.viewDidLoad()
+        todoTableView.register(UINib(nibName: "TodoCell", bundle: nil), forCellReuseIdentifier: "TodoCell")
            dateread()
        }
     
@@ -25,10 +26,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return individualContents.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let TodoCell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "TodoCell", for: indexPath)
-        TodoCell.textLabel!.text = individualContents[indexPath.row]
-        return TodoCell
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
+        let todoCell = tableView.dequeueReusableCell(withIdentifier: "TodoCell", for: indexPath) as! TodoCell
+        todoCell.cellControl(indexPath: indexPath)
+        return todoCell
     }
     
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -48,6 +49,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     @IBAction func toLobby() {
         performSegue(withIdentifier: "toLobby", sender: nil)
     }
+
     
      @IBAction func Add(_ sender: Any) {
            individualContents.append(todoTextField.text!)

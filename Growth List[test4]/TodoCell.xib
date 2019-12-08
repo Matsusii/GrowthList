@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PixelMplus10-Regular.ttf">
+            <string>PixelMplus10-Regular</string>
+        </array>
+        <array key="PixelMplus12-Bold.ttf">
+            <string>PixelMplus12-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TodoCell" rowHeight="57" id="KGk-i7-Jjw" customClass="TodoCell" customModule="Growth_List" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjo-u0-1Fd">
+                        <rect key="frame" x="10" y="0.0" width="240" height="45"/>
+                        <fontDescription key="fontDescription" name="PixelMplus10-Regular" family="PixelMplus10" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0L8-Rp-r6M">
+                        <rect key="frame" x="285" y="10" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="NgR-OQ-xIt"/>
+                            <constraint firstAttribute="width" constant="35" id="cSp-pZ-PnL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PixelMplus12-Bold" family="PixelMplus12" pointSize="11"/>
+                        <state key="normal" image="ごみ箱のフリーアイコン.png">
+                            <color key="titleColor" red="0.4212787449" green="0.64240664240000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mM5-vK-6yz">
+                        <rect key="frame" x="250" y="10" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="5M4-QW-lTD"/>
+                            <constraint firstAttribute="height" constant="35" id="BG8-fk-Cjl"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="王冠.png"/>
+                        <connections>
+                            <action selector="btnWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="jwE-qx-s1F"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="0L8-Rp-r6M" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="7nq-xk-nGW"/>
+                    <constraint firstItem="0L8-Rp-r6M" firstAttribute="leading" secondItem="mM5-vK-6yz" secondAttribute="trailing" id="9F7-ET-ksB"/>
+                    <constraint firstItem="zjo-u0-1Fd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="HBy-pD-adC"/>
+                    <constraint firstItem="mM5-vK-6yz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Hbm-fr-auR"/>
+                    <constraint firstItem="mM5-vK-6yz" firstAttribute="leading" secondItem="zjo-u0-1Fd" secondAttribute="trailing" id="JSt-bl-suS"/>
+                    <constraint firstAttribute="trailing" secondItem="0L8-Rp-r6M" secondAttribute="trailing" id="OSh-8j-11x"/>
+                    <constraint firstAttribute="bottom" secondItem="zjo-u0-1Fd" secondAttribute="bottom" id="clL-YQ-ykm"/>
+                    <constraint firstItem="zjo-u0-1Fd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="evP-5D-ac7"/>
+                    <constraint firstAttribute="bottom" secondItem="0L8-Rp-r6M" secondAttribute="bottom" constant="10" id="niR-QB-31d"/>
+                    <constraint firstItem="0L8-Rp-r6M" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ybR-it-dTV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="complet" destination="mM5-vK-6yz" id="XuB-Zl-e04"/>
+                <outlet property="delete" destination="0L8-Rp-r6M" id="Wn6-8C-Kch"/>
+                <outlet property="todoLabel" destination="zjo-u0-1Fd" id="E9l-9y-G40"/>
+            </connections>
+            <point key="canvasLocation" x="102.89855072463769" y="124.21875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ごみ箱のフリーアイコン.png" width="256" height="256"/>
+        <image name="王冠.png" width="3000" height="3000"/>
+    </resources>
+</document>

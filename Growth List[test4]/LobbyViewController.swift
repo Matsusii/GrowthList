@@ -46,7 +46,7 @@ class LobbyViewController: UIViewController {
     
     func imagechange() {
          if experience < 10{
-                   charaImageView.image = UIImage(named: "宿題くん１.png")
+                   charaImageView.image = UIImage(named: "原始人１.png")
                    positionLabel.text = "原始人"
                    remaining = 10 - experience
                }else if experience < 20{
