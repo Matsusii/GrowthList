@@ -36,14 +36,25 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         return true
     }
     
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == UITableViewCell.EditingStyle.delete {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let alert: UIAlertController = UIAlertController(title: "タスクの削除", message: "このタスクを削除しますか？達成すれば経験値が１上がり、諦めれば１下がります", preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction(title: "達成", style: .default, handler: { action in
             individualContents.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath as IndexPath], with: UITableView.RowAnimation.automatic)
             UserDefaults.standard.set(individualContents, forKey: "todoList")
             experiencePoint = experiencePoint + 1
             UserDefaults.standard.set(experiencePoint, forKey: "list-experience")
-        }
+        }))
+        alert.addAction(UIAlertAction(title: "諦める", style: .default, handler: { action in
+            individualContents.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath as IndexPath], with: UITableView.RowAnimation.automatic)
+            UserDefaults.standard.set(individualContents, forKey: "todoList")
+            experiencePoint = experiencePoint - 1
+            UserDefaults.standard.set(experiencePoint, forKey: "list-experience")
+        }))
+        alert.addAction(UIAlertAction(title: "キャンセル", style: .cancel))
+        present(alert, animated: true, completion: nil)
     }
     
     @IBAction func toLobby() {

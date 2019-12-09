@@ -11,8 +11,6 @@ import UIKit
 class TodoCell: UITableViewCell {
 
     @IBOutlet weak var todoLabel: UILabel!
-    @IBOutlet weak var delete: UIButton!
-    @IBOutlet weak var complet: UIButton!
     
     func cellControl(indexPath: IndexPath) {
         self.todoLabel.text = individualContents[indexPath.row]

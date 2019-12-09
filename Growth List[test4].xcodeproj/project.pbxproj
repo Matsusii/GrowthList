@@ -31,8 +31,6 @@
 		597DCA02239CAC91007911E2 /* 原始人１.png in Resources */ = {isa = PBXBuildFile; fileRef = 597DC9F7239CAC91007911E2 /* 原始人１.png */; };
 		597DCA0B239CE50D007911E2 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597DCA09239CE50D007911E2 /* TodoCell.swift */; };
 		597DCA0C239CE50D007911E2 /* TodoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 597DCA0A239CE50D007911E2 /* TodoCell.xib */; };
-		597DCA12239CE8D7007911E2 /* ごみ箱のフリーアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = 597DCA11239CE8D7007911E2 /* ごみ箱のフリーアイコン.png */; };
-		597DCA18239CEDB4007911E2 /* 王冠.png in Resources */ = {isa = PBXBuildFile; fileRef = 597DCA17239CEDB3007911E2 /* 王冠.png */; };
 		5995D8BD23702018000CC9A3 /* 総理大臣.png in Resources */ = {isa = PBXBuildFile; fileRef = 5995D8BC23702018000CC9A3 /* 総理大臣.png */; };
 /* End PBXBuildFile section */
 
@@ -68,8 +66,6 @@
 		597DC9F7239CAC91007911E2 /* 原始人１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "原始人１.png"; path = "動く原始人/原始人１.png"; sourceTree = "<group>"; };
 		597DCA09239CE50D007911E2 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 		597DCA0A239CE50D007911E2 /* TodoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoCell.xib; sourceTree = "<group>"; };
-		597DCA11239CE8D7007911E2 /* ごみ箱のフリーアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ごみ箱のフリーアイコン.png"; sourceTree = "<group>"; };
-		597DCA17239CEDB3007911E2 /* 王冠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "王冠.png"; path = "../../../../GrowthList/Growth List    Image/王冠.png"; sourceTree = "<group>"; };
 		5995D8BC23702018000CC9A3 /* 総理大臣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "総理大臣.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,8 +118,6 @@
 		5907C93323424E2A00E74A7C /* Growth List    Image */ = {
 			isa = PBXGroup;
 			children = (
-				597DCA17239CEDB3007911E2 /* 王冠.png */,
-				597DCA11239CE8D7007911E2 /* ごみ箱のフリーアイコン.png */,
 				593C4CC32386C00E008AF82D /* シェア.png */,
 				5995D8BC23702018000CC9A3 /* 総理大臣.png */,
 				595D5821235ABAAE0096D6F1 /* ロゴ.png */,
@@ -228,7 +222,6 @@
 				595D5822235ABAAE0096D6F1 /* ロゴ.png in Resources */,
 				5907C94023424E2A00E74A7C /* アスリート.png in Resources */,
 				5907C94223424E2A00E74A7C /* みじんこ微塵粉.png in Resources */,
-				597DCA12239CE8D7007911E2 /* ごみ箱のフリーアイコン.png in Resources */,
 				5907C94923424E2A00E74A7C /* 現代人.png in Resources */,
 				5907C90D23424CE700E74A7C /* Assets.xcassets in Resources */,
 				597DCA02239CAC91007911E2 /* 原始人１.png in Resources */,
@@ -240,7 +233,6 @@
 				593C4CC42386C00E008AF82D /* シェア.png in Resources */,
 				5907C94523424E2A00E74A7C /* 魚魚魚.png in Resources */,
 				593C4CD42387E09B008AF82D /* PixelMplus12-Regular.ttf in Resources */,
-				597DCA18239CEDB4007911E2 /* 王冠.png in Resources */,
 				593C4CD52387E09B008AF82D /* PixelMplus10-Bold.ttf in Resources */,
 				5907C90B23424CE600E74A7C /* Main.storyboard in Resources */,
 				5907C94323424E2A00E74A7C /* 歌手.png in Resources */,

@@ -28,9 +28,9 @@ class LobbyViewController: UIViewController {
         let activityItems: [Any] = [shareText, shareImage!]
         let activityViewController = UIActivityViewController(activityItems: activityItems, applicationActivities: nil)
         let excloudActivityTypes = [UIActivity.ActivityType.postToWeibo, .saveToCameraRoll, .print]
-        
         activityViewController.excludedActivityTypes = excloudActivityTypes
-        
+        activityViewController.popoverPresentationController?.sourceView = self.view;
+        activityViewController.popoverPresentationController?.sourceRect = CGRect(x: self.view.bounds.size.width / 2.0, y: self.view.bounds.size.height / 2.0, width: 100.0, height: 100.0)
         present(activityViewController, animated: true, completion: nil)
         }
     
