@@ -42,10 +42,19 @@ class LobbyViewController: UIViewController {
         experienceLabel.text = String(experience)
         imagechange()
         remainingLabel.text = "あと\(remaining)個達成で進化"
+        self.overrideUserInterfaceStyle = .light
     }
     
     func imagechange() {
-         if experience < 10{
+                if experience < -20{
+                    charaImageView.image = UIImage(named: "みじんこ微塵粉.png")
+                    positionLabel.text = "みじんこ"
+                    remaining = 10 - experience
+                }else if experience < 0{
+                    charaImageView.image = UIImage(named: "魚.png")
+                    positionLabel.text = "魚"
+                    remaining = 10 - experience
+              }else if experience < 10{
                    charaImageView.image = UIImage(named: "原始人１.png")
                    positionLabel.text = "原始人"
                    remaining = 10 - experience

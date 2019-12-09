@@ -20,7 +20,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
            super.viewDidLoad()
         todoTableView.register(UINib(nibName: "TodoCell", bundle: nil), forCellReuseIdentifier: "TodoCell")
            dateread()
-       }
+        self.overrideUserInterfaceStyle = .light
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return individualContents.count
@@ -61,7 +62,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         performSegue(withIdentifier: "toLobby", sender: nil)
     }
 
-    
      @IBAction func Add(_ sender: Any) {
            individualContents.append(todoTextField.text!)
            todoTextField.text = ""

@@ -17,7 +17,7 @@
 		5907C94123424E2A00E74A7C /* スター.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93523424E2A00E74A7C /* スター.png */; };
 		5907C94223424E2A00E74A7C /* みじんこ微塵粉.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93623424E2A00E74A7C /* みじんこ微塵粉.png */; };
 		5907C94323424E2A00E74A7C /* 歌手.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93723424E2A00E74A7C /* 歌手.png */; };
-		5907C94523424E2A00E74A7C /* 魚魚魚.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93923424E2A00E74A7C /* 魚魚魚.png */; };
+		5907C94523424E2A00E74A7C /* 魚.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93923424E2A00E74A7C /* 魚.png */; };
 		5907C94623424E2A00E74A7C /* 神様.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93A23424E2A00E74A7C /* 神様.png */; };
 		5907C94923424E2A00E74A7C /* 現代人.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93D23424E2A00E74A7C /* 現代人.png */; };
 		5907C94A23424E2A00E74A7C /* スーパーヒーロー.png in Resources */ = {isa = PBXBuildFile; fileRef = 5907C93E23424E2A00E74A7C /* スーパーヒーロー.png */; };
@@ -47,7 +47,7 @@
 		5907C93523424E2A00E74A7C /* スター.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スター.png"; sourceTree = "<group>"; };
 		5907C93623424E2A00E74A7C /* みじんこ微塵粉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "みじんこ微塵粉.png"; sourceTree = "<group>"; };
 		5907C93723424E2A00E74A7C /* 歌手.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "歌手.png"; sourceTree = "<group>"; };
-		5907C93923424E2A00E74A7C /* 魚魚魚.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "魚魚魚.png"; sourceTree = "<group>"; };
+		5907C93923424E2A00E74A7C /* 魚.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "魚.png"; sourceTree = "<group>"; };
 		5907C93A23424E2A00E74A7C /* 神様.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "神様.png"; sourceTree = "<group>"; };
 		5907C93D23424E2A00E74A7C /* 現代人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "現代人.png"; sourceTree = "<group>"; };
 		5907C93E23424E2A00E74A7C /* スーパーヒーロー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スーパーヒーロー.png"; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 				5907C93523424E2A00E74A7C /* スター.png */,
 				5907C93623424E2A00E74A7C /* みじんこ微塵粉.png */,
 				5907C93723424E2A00E74A7C /* 歌手.png */,
-				5907C93923424E2A00E74A7C /* 魚魚魚.png */,
+				5907C93923424E2A00E74A7C /* 魚.png */,
 				5907C93A23424E2A00E74A7C /* 神様.png */,
 				5907C93D23424E2A00E74A7C /* 現代人.png */,
 				5907C93E23424E2A00E74A7C /* スーパーヒーロー.png */,
@@ -231,7 +231,7 @@
 				593C4CDB2387E09B008AF82D /* PixelMplus10-Regular.ttf in Resources */,
 				5907C94123424E2A00E74A7C /* スター.png in Resources */,
 				593C4CC42386C00E008AF82D /* シェア.png in Resources */,
-				5907C94523424E2A00E74A7C /* 魚魚魚.png in Resources */,
+				5907C94523424E2A00E74A7C /* 魚.png in Resources */,
 				593C4CD42387E09B008AF82D /* PixelMplus12-Regular.ttf in Resources */,
 				593C4CD52387E09B008AF82D /* PixelMplus10-Bold.ttf in Resources */,
 				5907C90B23424CE600E74A7C /* Main.storyboard in Resources */,
@@ -401,7 +401,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.ryoheimatsushita.Growth-List";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.ryohei.Growth-List";
 				PRODUCT_NAME = "Growth List";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -419,7 +419,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.ryoheimatsushita.Growth-List";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.ryohei.Growth-List";
 				PRODUCT_NAME = "Growth List";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
