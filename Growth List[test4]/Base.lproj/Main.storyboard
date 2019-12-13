@@ -93,13 +93,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TiK-4f-U5f">
-                                <rect key="frame" x="14" y="198" width="347" height="347"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="startWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uSN-RC-fWw"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -248,12 +241,11 @@
                     <connections>
                         <outlet property="todoTableView" destination="tJO-2u-YPS" id="8kC-dh-zZJ"/>
                         <outlet property="todoTextField" destination="MeB-Vi-FRL" id="1ae-jD-Bpy"/>
-                        <segue destination="BYZ-38-t0r" kind="modal" identifier="toLobby" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="dA7-YR-wOw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZRw-nc-Lu8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1013.6" y="114.69265367316342"/>
+            <point key="canvasLocation" x="801" y="115"/>
         </scene>
     </scenes>
     <resources>

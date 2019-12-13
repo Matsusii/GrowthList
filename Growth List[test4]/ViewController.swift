@@ -59,17 +59,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     
     @IBAction func toLobby() {
-        performSegue(withIdentifier: "toLobby", sender: nil)
+        self.dismiss(animated: true, completion: nil)
     }
 
      @IBAction func Add(_ sender: Any) {
-           individualContents.append(todoTextField.text!)
-           todoTextField.text = ""
-           UserDefaults.standard.set(individualContents, forKey: "todoList")
-        if UserDefaults.standard.object(forKey: "todoList") != nil {
-            individualContents = UserDefaults.standard.object(forKey: "todoList") as! [String]
-        }
-        todoTableView.reloadData()
+        addTask()
     }
     
     @IBAction func textreset() {
@@ -92,7 +86,23 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             }
         
     }
-        
+    
+    func addTask() {
+    if todoTextField.text == "" {
+        let spaceAlert: UIAlertController = UIAlertController(title: "タスクを入力してください", message: "空白は追加できません！タスクを追加してからやり直してください", preferredStyle: .alert)
+        spaceAlert.addAction(UIAlertAction(title: "OK", style: .cancel))
+        present(spaceAlert, animated: true, completion: nil)
+    }else{
+        individualContents.append(todoTextField.text!)
+       todoTextField.text = ""
+       UserDefaults.standard.set(individualContents, forKey: "todoList")
+    if UserDefaults.standard.object(forKey: "todoList") != nil {
+        individualContents = UserDefaults.standard.object(forKey: "todoList") as! [String]
+    }
+    todoTableView.reloadData()
+    }
+        todoTextField.endEditing(true)
+    }
     
 }
 
