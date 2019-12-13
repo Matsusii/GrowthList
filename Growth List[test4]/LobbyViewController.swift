@@ -18,10 +18,6 @@ class LobbyViewController: UIViewController {
     @IBOutlet var positionLabel: UILabel!
     @IBOutlet var remainingLabel: UILabel!
     
-    @IBAction func toList(){
-        performSegue(withIdentifier: "toList", sender: nil)
-    }
-    
     @IBAction func share() {
         let shareText = "今の経験値は\(experience)、役職は\(positionLabel.text!)だよ"
         let shareImage = charaImageView.image
@@ -43,6 +39,8 @@ class LobbyViewController: UIViewController {
         imagechange()
         remainingLabel.text = "あと\(remaining)個達成で進化"
         self.overrideUserInterfaceStyle = .light
+        self.navigationItem.title = "ロビー"
+        
     }
     
     func imagechange() {

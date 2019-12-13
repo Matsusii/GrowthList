@@ -21,6 +21,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         todoTableView.register(UINib(nibName: "TodoCell", bundle: nil), forCellReuseIdentifier: "TodoCell")
            dateread()
         self.overrideUserInterfaceStyle = .light
+        self.navigationItem.title = "リスト"
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
